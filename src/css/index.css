@@ -1,0 +1,30 @@
+@import url('../css/globalVariables.css');
+
+/* anchor element styling */
+a {
+    color: var(--main-text-color);
+}
+
+/* nav parent styling */
+#nav {
+    background: var(--main-bg-color);
+}
+
+
+/* drop-nav styling */
+#drop-nav {
+    background: var(--tertiary-bg-color);
+    border-radius: 15px;
+}
+
+/* root main container styling */
+#root {
+    color: var(--main-text-color);
+    background: transparent;
+}
+
+#root > #grid__container {
+    color: var(--main-text-color);
+    background: var(--secondary-bg-color);
+    border-radius: 15px;
+}
